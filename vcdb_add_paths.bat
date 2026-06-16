@@ -8,4 +8,4 @@ echo "Add include paths for source files that are not included already"
 
 
 echo "Importing filtered commands into new database"
-%VECTORCAST_DIR%\vcshell --db=vcshell_new.db --inputcmds=commands_filtered.txt putcommand
+REM %VECTORCAST_DIR%\vcshell --db=vcshell_new.db --inputcmds=commands_filtered.txt putcommand
